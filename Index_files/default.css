@@ -375,9 +375,9 @@ padding: 10px;
 
 .zone-border .zone-content{ padding: 8px;}
 
-.zone-featured .zone-title{ font-size: 12px; text-transform: uppercase; line-height: 30px; margin-bottom: 10px; background: #fda085; background: linear-gradient(-45deg, #f9d423 0%, #f83600 100%);}
+.zone-featured .zone-title{ font-size: 12px; text-transform: uppercase; line-height: 30px; margin-bottom: 10px; border-bottom: 3px solid #f83600;}
 
-.zone-featured .zone-title a{ color: white; font-weight: bold; padding-left: 8px;}
+.zone-featured .zone-title a{ display: inline-block; color: white; font-weight: bold; margin-left: 8px; padding: 0 8px; background: #f83600;}
 
 .zone-featured .zone-title a:hover{ color: #333;}
 
@@ -399,7 +399,7 @@ padding: 10px;
 
 .zone-weather .story{ margin-bottom: 0px;}
 
-.zone-weather .story .title{ margin-bottom: 10px;}
+.zone-weather .story .title{ margin-bottom: 10px; line-height: 32px;}
 
 .zone-weather .summary,.zone-weather .summary .marquee { max-height: 100px; overflow: hidden;}
 
